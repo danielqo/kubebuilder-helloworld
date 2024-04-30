@@ -1,0 +1,15 @@
+apiVersion: webapp.helloworld.dqo.me/v1
+kind: Calculator
+metadata:
+  labels:
+    app.kubernetes.io/name: helloworld
+    app.kubernetes.io/managed-by: kustomize
+  name: calculator-sample
+spec:
+  values:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
